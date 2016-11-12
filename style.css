@@ -10,6 +10,7 @@ The primary stylesheet for Oolith. This sheet pulls in all the components in ord
 @import url('CSS/navigation.css');
 @import url('CSS/images.css');
 @import url('CSS/banner.css');
+@import url('CSS/products.css');
 @import url('CSS/boxes.css');
 @import url('CSS/intro.css');
 @import url('CSS/levels.css');

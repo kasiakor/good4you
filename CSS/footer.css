@@ -11,6 +11,7 @@ Footer
 .widgets {
     max-width: 65em;
     margin: 0 auto;
+    text-align: center;
 }
 
 .widget {

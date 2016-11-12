@@ -22,6 +22,14 @@ Intro
     margin-top: 0;
 }
 
+.columns p {
+     text-align: justify;
+}
+
+.columns ul {
+    text-align: justify;
+}
+
 @media screen and (min-width: 700px) {
     .intro {
         max-width: 33em;

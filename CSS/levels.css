@@ -6,13 +6,12 @@ Levels
     display: flex;
     margin-right: -2em;
     margin-left: -2em;
-    padding: 4em 0 0;
     background: white;
 }
 
 .level {
     width: 75%;
-    margin: 0 auto 6em;
+    margin: 0 auto 0.5em;
 }
 
 .level a {
@@ -57,7 +56,7 @@ Levels
     }
 
     .level {
-        padding: 3em;
+        padding: 2em;
         font-size: 80%;
     }
 

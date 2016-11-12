@@ -4,6 +4,7 @@ Header styles minus menu
 
 .masthead {
     background: #72b02c;
+    height: 140px;
 }
 
 @media screen and (min-width: 50em) {
