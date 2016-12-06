@@ -12,10 +12,11 @@ Intro
 }
 
 .intro-title {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Open Sans', Arial, sans-serif;
     font-style: italic;
     margin-bottom: 1.4em;
     text-align: center;
+    font-weight: 100;
 }
 
 .intro-text p {
