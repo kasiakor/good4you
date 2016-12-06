@@ -112,6 +112,10 @@ Main Navigation
     color: hsl(0, 0%, 20%);
 }
 
+#primary-menu button.dropdown-toggle {
+	/*display: none;*/
+}
+
 /* Small menu. */
 .menu-toggle,
 .main-navigation.toggled ul {
