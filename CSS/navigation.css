@@ -21,7 +21,6 @@ Main Navigation
 
 .main-navigation ul ul {
 	display: none;
-	margin-left: 0.8em;
 }
 
 .main-navigation a {
@@ -70,6 +69,28 @@ Main Navigation
 	display: block;
 }
 
+.product-list {
+	display: none;
+    position: absolute;
+    background-color: #72b02c;
+    color:#333;
+    min-width: 139px;
+    box-shadow: 0px 10px 15px 0px rgba(0,0,0,0.2);
+    outline:solid 1px #b3b3b3;
+}
+
+.product-list li:hover {
+	color: white;
+}
+.product-list li {
+	padding-left: 15px;
+}
+
+#dropdown-menu:hover .product-list {
+	display: block;
+	cursor: pointer;
+}
+
 .dropdown-toggle {
 	position: absolute;
 	height: 27px;
@@ -81,7 +102,6 @@ Main Navigation
 	box-sizing: content-box;
 	padding: 0;
 	background-color: inherit;
-	border: 1px solid #fff;
 	content: "";
 	color: #fff;
 	text-transform: lowercase; /* Stop screen readers from reading the text as capital letters */
@@ -220,11 +240,6 @@ Main Navigation
 	/* Display the menu items in a horizontal order */
 	.main-navigation li {
 		border: none;
-	}
-
-	/* Add an outline to the drop-down menus */
-	.main-navigation ul ul {
-		outline: 1px solid #333;
 	}
 
 	/* Left-align drop-down menu items */
