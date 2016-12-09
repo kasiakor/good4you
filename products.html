@@ -1,232 +1,508 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<head>
+	    <title>Good4you</title>
+	    <meta charset="utf-8">
+	    <meta name="description" content="Good4you responsive website"/>
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- Stylesheets, inlcuding custom fonts, go here -->
+		<link href='https://fonts.googleapis.com/css?family=EB+Garamond' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="style.css" type="text/css" media="all">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	</head>
+	<body>
+	    <header class="masthead">
+	        <div class="site-branding">
+	            <h1><img id="logo" src ="images/logotransscale.gif"</h1>
+	        </div><!-- .site-title -->
+	        <nav id="site-navigation" class="main-navigation" role="navigation">
+	            <!-- Mobile menu toggle button -->
+	            <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">Menu</button>
+	            <!-- Main Menu -->
+	            <div class="menu-main-menu-container">
+	                <ul id="primary-menu" class="nav-menu">
+	                    <li class="menu-item current-menu-item"><a href="index.html">Home</a></li>
+	                    <li id="dropdown-menu" class="menu-item current-menu-item"><a href="products.html">Products</a>
+	                    	<ul class="product-list">
+	                    		<li>Juices</li>
+	                    		<li>Flours</li>
+	                    		<li>Healthy Snacks</li>
+	                    		<li>Juices</li>
+	                    		<li>Juices</li>
+	                    		<li>Juices</li>
+	                    		<li>Juices</li>
+	                    	</ul>
+	                    </li>
+	                    <li class="menu-item"><a href="offers.html">Offers</a>
+	                    </li>
+	                    <li class="menu-item"><a href="contact.html">Contact</a></li>
+	            </ul></div>
+	        </nav>
+	    </header><!-- .masthead -->
+	    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+			<!-- Indicators -->
+			<ol class="carousel-indicators">
+			    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+			    <li data-target="#myCarousel" data-slide-to="1"></li>
+			    <li data-target="#myCarousel" data-slide-to="2"></li>
+			    <li data-target="#myCarousel" data-slide-to="3"></li>
+			    <li data-target="#myCarousel" data-slide-to="4"></li>
+		 	</ol>
 
-    <title>Good4you</title>
-    <meta name="description" content="Good4you responsive website"/>
+		  <!-- Wrapper for slides -->
+		  	<div class="carousel-inner" role="listbox">
+			    <div class="item active">
+			      <img src="images/carousel/veggies-carousel.jpg" alt="Veggies" width="460" height="245">
+			    </div>
 
-    <!-- Stylesheets, inlcuding custom fonts, go here -->
-   <link href='https://fonts.googleapis.com/css?family=EB+Garamond' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="style.css" type="text/css" media="all">
-</head>
+			    <div class="item">
+			      <img src="images/carousel/honey-carousel.jpg" alt="Honey" width="460" height="245">
+			    </div>
 
-<body>
-    <header class="masthead">
-        <div class="site-branding">
-            <h1><img id="logo" src ="images/logotransscale.gif"</h1>
-        </div><!-- .site-title -->
-        <nav id="site-navigation" class="main-navigation" role="navigation">
-            <!-- Mobile menu toggle button -->
-            <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">Menu</button>
-            <!-- Main Menu -->
-            <div class="menu-main-menu-container">
-                <ul id="primary-menu" class="nav-menu">
-                    <li class="menu-item current-menu-item"><a href="index.html">Home</a></li>
-                    <li id="dropdown-menu" class="menu-item current-menu-item"><a href="products.html">Products</a>
-                    	<ul class="product-list">
-                    		<li>Juices</li>
-                    		<li>Juices</li>
-                    		<li>Juices</li>
-                    		<li>Juices</li>
-                    		<li>Juices</li>
-                    		<li>Juices</li>
-                    		<li>Juices</li>
-                    	</ul>
-                    </li>
-                    <li class="menu-item"><a href="offers.html">Offers</a>
-                    </li>
-                    <li class="menu-item"><a href="contact.html">Contact</a></li>
-            </ul></div>
-        </nav>
-    </header><!-- .masthead -->
+			    <div class="item">
+			      <img src="images/carousel/fruits-carousel.jpg" alt="Fruits" width="460" height="245">
+			    </div>
 
-    <div class="content">
-        <main class="main-area">
-            <div id="juices">
-                <div id="juices-text">
-                    <h2>Juices</h2>
-                    <p>Juices pressed cold of the entire fruits and subjected to the slight pasteurization, what allows to keep all valuable microelements and vitamins</p>
-                </div>
-                <section class="levels">
-                    <div class="level-list">
-                        <div class="level">
-                                <figure class="level-image">
-                                    <img src="images/products/american-blueberry.jpg" alt="american blueberry">
-                                </figure>
-                                <h3 class="level-title">american blueberry</h3>
-                                <p class="level-blurb">good for healthy eyes and better digestion</p>
-                        </div><!-- .level -->
-                        <div class="level">
-                                <figure class="level-image">
-                                    <img src="images/products/acai-berry.jpg" alt="acai berry">
-                                </figure>
-                                <h3 class="level-title">acai berry</h3>
-                                <p class="level-blurb">good for weight lose and rejuvenates mind and body</p>
-                        </div><!-- .level -->
-                        <div class="level">
-                            <figure class="level-image">
-                                <img src="images/products/acerola.jpg" alt="acerola">
-                            </figure>
-                            <h3 class="level-title">acerola</h3>
-                            <p class="level-blurb">is a  rich source of vitamin C and straights immune system</p>
-                        </div><!-- .level -->
-                    </div><!-- .level-list -->
-                </section><!-- .levels -->
-                <section class="levels">
-                    <div class="level-list">
-                        <div class="level">
-                                <figure class="level-image">
-                                    <img src="images/products/cranberry.jpg" alt="cranberry">
-                                </figure>
-                                <h3 class="level-title">cranberry</h3>
-                                <p class="level-blurb">is perfect for keeping  healthy bladder and kidneys</p>
-                        </div><!-- .level -->
-                        <div class="level">
-                                <figure class="level-image">
-                                    <img src="images/products/goji-berry.jpg" alt="goji berry">
-                                </figure>
-                                <h3 class="level-title">goji berry</h3>
-                                <p class="level-blurb">is elixir of youth and commonly used in healthy diets</p>
-                        </div><!-- .level -->
-                        <div class="level">
-                            <figure class="level-image">
-                                <img src="images/products/lingonberry.jpg" alt="lingonberry">
-                            </figure>
-                            <h3 class="level-title">lingonberry</h3>
-                            <p class="level-blurb">is good for detox and better digestion </p>
-                        </div><!-- .level -->
-                    </div><!-- .level-list -->
-                </section><!-- .levels -->
-                <section class="levels">
-                    <div class="level-list">
-                        <div class="level">
-                                <figure class="level-image">
-                                    <img src="images/products2/noni.jpg" alt="noni">
-                                </figure>
-                                <h3 class="level-title">noni</h3>
-                                <p class="level-blurb">is good remedy for stress, headaches and tiredness, its called aspirin of XXI century </p>
-                        </div><!-- .level -->
-                        <div class="level">
-                                <figure class="level-image">
-                                    <img src="images/products2/chokeberry.jpg" alt="chokeberry">
-                                </figure>
-                                <h3 class="level-title">chokeberry</h3>
-                                <p class="level-blurb">is for healthy heart and better memory</p>
-                        </div><!-- .level -->
-                        <div class="level">
-                            <figure class="level-image">
-                                <img src="images/products/black-elderberry.jpg" alt="black elderberry">
-                            </figure>
-                            <h3 class="level-title">black elderberry</h3>
-                            <p class="level-blurb">is good for detox and rejuvenates mind and body</p>
-                        </div><!-- .level -->
-                    </div><!-- .level-list -->
-                </section><!-- .levels -->
-                <section class="levels">
-                    <div class="level-list">
-                        <div class="level">
-                                <figure class="level-image">
-                                    <img src="images/products2/quince.jpg" alt="quince">
-                                </figure>
-                                <h3 class="level-title">quince</h3>
-                                <p class="level-blurb">is for healthy heart and kidneys</p>
-                        </div><!-- .level -->
-                        <div class="level">
-                                <figure class="level-image">
-                                    <img src="images/products2/raspberry.jpg" alt="raspberry">
-                                </figure>
-                                <h3 class="level-title">raspberry</h3>
-                                <p class="level-blurb">is commonly used for flu, great fights fiver and cold</p>
-                        </div><!-- .level -->
-                        <div class="level">
-                            <figure class="level-image">
-                                <img src="images/products2/rowan.jpg" alt="rowan">
-                            </figure>
-                            <h3 class="level-title">rowan</h3>
-                            <p class="level-blurb">is great for liver and kidneys</p>
-                        </div><!-- .level -->
-                    </div><!-- .level-list -->
-                </section><!-- .levels -->
-                <section class="levels">
-                    <div class="level-list">
-                        <div class="level">
-                                <figure class="level-image">
-                                    <img src="images/products2/seabuckthorn.jpg" alt="seabuckthorn">
-                                </figure>
-                                <h3 class="level-title">seabuckthorn</h3>
-                                <p class="level-blurb">is for healthy completion and  shining hair</p>
-                        </div><!-- .level -->
-                        <div class="level">
-                                <figure class="level-image">
-                                    <img src="images/products2/nettle.jpg" alt="nettle">
-                                </figure>
-                                <h3 class="level-title">nettle</h3>
-                                <p class="level-blurb">is good for strong hair and detox</p>
-                        </div><!-- .level -->
-                        <div class="level">
-                            <figure class="level-image">
-                                <img src="images/products2/sour-cherry.jpg" alt="sour cherry">
-                            </figure>
-                            <h3 class="level-title">sour cherry</h3>
-                            <p class="level-blurb">is good for digestion  and straightens immune system</p>
-                        </div><!-- .level -->
-                    </div><!-- .level-list -->
-                </section><!-- .levels -->
-                <section class="levels">
-                    <div class="level-list">
-                        <div class="level">
-                                <figure class="level-image">
-                                    <img src="images/products2/wild-rose.jpg" alt="wild rose">
-                                </figure>
-                                <h3 class="level-title">wild rose</h3>
-                                <p class="level-blurb">is good for liver and boosts immune system</p>
-                        </div><!-- .level -->
+			    <div class="item">
+			      <img src="images/carousel/flour-carousel.jpg" alt="Flour" width="460" height="245">
+			    </div>
+			    <div class="item">
+			      <img src="images/carousel/harvest-carousel.jpg" alt="Harvest" width="460" height="245">
+			    </div>
+		 	</div>
 
-                        <div class="level">
-                            <figure class="level-image">
-                                <img src="images/products2/pomegranate.jpg" alt="coming soon">
-                            </figure>
-                            <h3 class="level-title">pomegranate</h3>
-                            <p class="level-blurb">coming soon</p>
-                        </div><!-- .level -->
-                        <div class="level" style="visibility: hidden;">
-                            <figure class="level-image">
-                                <img src="images/empty.png" alt="coming soon">
-                            </figure>
-                            <h3 class="level-title"></h3>
-                            <p class="level-blurb">coming soon</p>
-                        </div><!-- .level -->
-                    </div><!-- .level-list -->
-                </section><!-- .levels -->
-            </div>
-        </main><!-- .main-area -->
-    </div><!-- .content -->
+		  <!-- Left and right controls -->
+		  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+		    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+		    <span class="sr-only">Previous</span>
+		  </a>
+		  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+		    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+		    <span class="sr-only">Next</span>
+		  </a>
+		</div>
+	    <div class="content">
+	        <main class="main-area">
+	            <div class="juices">
+	                <div class="text">
+	                    <h2>Juices</h2>
+	                    <p>Juices pressed cold of the entire fruits and subjected to the slight pasteurization, what allows to keep all valuable microelements and vitamins</p>
+	                </div>
+	                <section class="levels">
+	                    <div class="level-list">
+	                        <div class="level">
+	                                <figure class="level-image">
+	                                    <img class="img" src="images/products/american-blueberry.jpg" alt="american blueberry">
+	                                </figure>
+	                                <h3 class="level-title">american blueberry</h3>
+	                                <p class="level-blurb">good for healthy eyes and better digestion</p>
+	                        </div><!-- .level -->
+	                        <div class="level">
+	                                <figure class="level-image">
+	                                    <img class="img" src="images/products/acai-berry.jpg" alt="acai berry">
+	                                </figure>
+	                                <h3 class="level-title">acai berry</h3>
+	                                <p class="level-blurb">good for weight lose and rejuvenates mind and body</p>
+	                        </div><!-- .level -->
+	                        <div class="level">
+	                            <figure class="level-image">
+	                                <img class="img" src="images/products/acerola.jpg" alt="acerola">
+	                            </figure>
+	                            <h3 class="level-title">acerola</h3>
+	                            <p class="level-blurb">is a  rich source of vitamin C and straights immune system</p>
+	                        </div><!-- .level -->
+	                    </div><!-- .level-list -->
+	                </section><!-- .levels -->
+	                <section class="levels">
+	                    <div class="level-list">
+	                        <div class="level">
+	                                <figure class="level-image">
+	                                    <img src="images/products/cranberry.jpg" alt="cranberry">
+	                                </figure>
+	                                <h3 class="level-title">cranberry</h3>
+	                                <p class="level-blurb">is perfect for keeping  healthy bladder and kidneys</p>
+	                        </div><!-- .level -->
+	                        <div class="level">
+	                                <figure class="level-image">
+	                                    <img src="images/products/goji-berry.jpg" alt="goji berry">
+	                                </figure>
+	                                <h3 class="level-title">goji berry</h3>
+	                                <p class="level-blurb">is elixir of youth and commonly used in healthy diets</p>
+	                        </div><!-- .level -->
+	                        <div class="level">
+	                            <figure class="level-image">
+	                                <img src="images/products/lingonberry.jpg" alt="lingonberry">
+	                            </figure>
+	                            <h3 class="level-title">lingonberry</h3>
+	                            <p class="level-blurb">is good for detox and better digestion </p>
+	                        </div><!-- .level -->
+	                    </div><!-- .level-list -->
+	                </section><!-- .levels -->
+	                <section class="levels">
+	                    <div class="level-list">
+	                        <div class="level">
+	                                <figure class="level-image">
+	                                    <img src="images/products2/noni.jpg" alt="noni">
+	                                </figure>
+	                                <h3 class="level-title">noni</h3>
+	                                <p class="level-blurb">is good remedy for stress, headaches and tiredness, its called aspirin of XXI century </p>
+	                        </div><!-- .level -->
+	                        <div class="level">
+	                                <figure class="level-image">
+	                                    <img src="images/products2/chokeberry.jpg" alt="chokeberry">
+	                                </figure>
+	                                <h3 class="level-title">chokeberry</h3>
+	                                <p class="level-blurb">is for healthy heart and better memory</p>
+	                        </div><!-- .level -->
+	                        <div class="level">
+	                            <figure class="level-image">
+	                                <img src="images/products/black-elderberry.jpg" alt="black elderberry">
+	                            </figure>
+	                            <h3 class="level-title">black elderberry</h3>
+	                            <p class="level-blurb">is good for detox and rejuvenates mind and body</p>
+	                        </div><!-- .level -->
+	                    </div><!-- .level-list -->
+	                </section><!-- .levels -->
+	                <section class="levels">
+	                    <div class="level-list">
+	                        <div class="level">
+	                                <figure class="level-image">
+	                                    <img src="images/products2/quince.jpg" alt="quince">
+	                                </figure>
+	                                <h3 class="level-title">quince</h3>
+	                                <p class="level-blurb">is for healthy heart and kidneys</p>
+	                        </div><!-- .level -->
+	                        <div class="level">
+	                                <figure class="level-image">
+	                                    <img src="images/products2/raspberry.jpg" alt="raspberry">
+	                                </figure>
+	                                <h3 class="level-title">raspberry</h3>
+	                                <p class="level-blurb">is commonly used for flu, great fights fiver and cold</p>
+	                        </div><!-- .level -->
+	                        <div class="level">
+	                            <figure class="level-image">
+	                                <img src="images/products2/rowan.jpg" alt="rowan">
+	                            </figure>
+	                            <h3 class="level-title">rowan</h3>
+	                            <p class="level-blurb">is great for liver and kidneys</p>
+	                        </div><!-- .level -->
+	                    </div><!-- .level-list -->
+	                </section><!-- .levels -->
+	                <section class="levels">
+	                    <div class="level-list">
+	                        <div class="level">
+	                                <figure class="level-image">
+	                                    <img src="images/products2/seabuckthorn.jpg" alt="seabuckthorn">
+	                                </figure>
+	                                <h3 class="level-title">seabuckthorn</h3>
+	                                <p class="level-blurb">is for healthy completion and  shining hair</p>
+	                        </div><!-- .level -->
+	                        <div class="level">
+	                                <figure class="level-image">
+	                                    <img src="images/products2/nettle.jpg" alt="nettle">
+	                                </figure>
+	                                <h3 class="level-title">nettle</h3>
+	                                <p class="level-blurb">is good for strong hair and detox</p>
+	                        </div><!-- .level -->
+	                        <div class="level">
+	                            <figure class="level-image">
+	                                <img src="images/products2/sour-cherry.jpg" alt="sour cherry">
+	                            </figure>
+	                            <h3 class="level-title">sour cherry</h3>
+	                            <p class="level-blurb">is good for digestion  and straightens immune system</p>
+	                        </div><!-- .level -->
+	                    </div><!-- .level-list -->
+	                </section><!-- .levels -->
+	                <section class="levels">
+	                    <div class="level-list">
+	                        <div class="level">
+	                                <figure class="level-image">
+	                                    <img src="images/products2/wild-rose.jpg" alt="wild rose">
+	                                </figure>
+	                                <h3 class="level-title">wild rose</h3>
+	                                <p class="level-blurb">is good for liver and boosts immune system</p>
+	                        </div><!-- .level -->
+	                        <div class="level">
+	                            <figure class="level-image">
+	                                <img src="images/products2/pomegranate.jpg" alt="coming soon">
+	                            </figure>
+	                            <h3 class="level-title">pomegranate</h3>
+	                            <p class="level-blurb">coming soon</p>
+	                        </div><!-- .level -->
+	                        <div class="level" style="visibility: hidden;">
+	                            <figure class="level-image">
+	                                <img src="images/empty.png" alt="coming soon">
+	                            </figure>
+	                            <h3 class="level-title"></h3>
+	                            <p class="level-blurb">coming soon</p>
+	                        </div><!-- .level -->
+	                    </div><!-- .level-list -->
+	                </section><!-- .levels -->
+	            </div>
+	            <div class="flours">
+	                <div class="text">
+	                    <h2>Flours</h2>
+	                    <p></p>
+	                </div>
+	                <section class="levels">
+	                    <div class="level-list">
+	                        <div class="level">
+	                                <figure class="level-image">
+	                                    <img src="images/products/amaranth-flour.jpg" alt="amaranth flour">
+	                                </figure>
+	                                <h3 class="level-title">amaranth flour</h3>
+	                                <p class="level-blurb"></p>
+	                        </div><!-- .level -->
+	                        <div class="level">
+	                                <figure class="level-image">
+	                                    <img src="images/products/spelt-flour.jpg" alt="spelt flour">
+	                                </figure>
+	                                <h3 class="level-title">spelt flour</h3>
+	                                <p class="level-blurb"></p>
+	                        </div><!-- .level -->
+	                        <div class="level">
+	                            <figure class="level-image">
+	                                <img src="images/products/coconut-flour.jpg" alt="coconut flour">
+	                            </figure>
+	                            <h3 class="level-title">coconut flour</h3>
+	                            <p class="level-blurb"></p>
+	                        </div><!-- .level -->
+	                    </div><!-- .level-list -->
+	                </section><!-- .levels -->
+	                <section class="levels">
+	                    <div class="level-list">
+	                        <div class="level">
+	                                <figure class="level-image">
+	                                    <img src="images/products/buckwheat-flour.jpg" alt="buckwheat flour">
+	                                </figure>
+	                                <h3 class="level-title">buckwheat flour</h3>
+	                                <p class="level-blurb"></p>
+	                        </div><!-- .level -->
+	                        <div class="level">
+	                                <figure class="level-image">
+	                                    <img src="images/products/millet-flour.jpg" alt="millet flour">
+	                                </figure>
+	                                <h3 class="level-title">millet flour</h3>
+	                                <p class="level-blurb"></p>
+	                        </div><!-- .level -->
+	                        <div class="level">
+	                            <figure class="level-image">
+	                                <img src="images/products/chickpeas-flour.jpg" alt="chickpeas flour">
+	                            </figure>
+	                            <h3 class="level-title">chickpeas flour</h3>
+	                            <p class="level-blurb"></p>
+	                        </div><!-- .level -->
+	                    </div><!-- .level-list -->
+	                </section><!-- .levels -->
+	                <section class="levels">
+	                    <div class="level-list">
+	                        <div class="level">
+	                                <figure class="level-image">
+	                                    <img src="images/products/quinoa-flour.jpg" alt="quinoa flour">
+	                                </figure>
+	                                <h3 class="level-title">quinoa flour</h3>
+	                                <p class="level-blurb"></p>
+	                        </div><!-- .level -->
+	                        <div class="level">
+	                                <figure class="level-image">
+	                                    <img src="images/products/rice-flour.jpg" alt="rice flour">
+	                                </figure>
+	                                <h3 class="level-title">rice flour</h3>
+	                                <p class="level-blurb"></p>
+	                        </div><!-- .level -->
+	                        <div class="level" style="visibility: hidden;">
+	                            <figure class="level-image">
+	                                <img src="images/empty.png" alt="coming soon">
+	                            </figure>
+	                            <h3 class="level-title"></h3>
+	                            <p class="level-blurb">coming soon</p>
+	                        </div><!-- .level -->
+	                    </div><!-- .level-list -->
+	                </section><!-- .levels -->
+	            </div>
+	            <div class="healthy-snacks">
+	                <div class="text">
+	                    <h2>Healthy Snacks</h2>
+	                    <p></p>
+	                </div>
+	                <section class="levels">
+	                    <div class="level-list">
+	                        <div class="level">
+	                                <figure class="level-image">
+	                                    <img src="images/products/american-blueberry.jpg" alt="american blueberry">
+	                                </figure>
+	                                <h3 class="level-title">american blueberry</h3>
+	                                <p class="level-blurb">good for healthy eyes and better digestion</p>
+	                        </div><!-- .level -->
+	                        <div class="level">
+	                                <figure class="level-image">
+	                                    <img src="images/products/acai-berry.jpg" alt="acai berry">
+	                                </figure>
+	                                <h3 class="level-title">acai berry</h3>
+	                                <p class="level-blurb">good for weight lose and rejuvenates mind and body</p>
+	                        </div><!-- .level -->
+	                        <div class="level">
+	                            <figure class="level-image">
+	                                <img src="images/products/acerola.jpg" alt="acerola">
+	                            </figure>
+	                            <h3 class="level-title">acerola</h3>
+	                            <p class="level-blurb">is a  rich source of vitamin C and straights immune system</p>
+	                        </div><!-- .level -->
+	                    </div><!-- .level-list -->
+	                </section><!-- .levels -->
+	                <section class="levels">
+	                    <div class="level-list">
+	                        <div class="level">
+	                                <figure class="level-image">
+	                                    <img src="images/products/cranberry.jpg" alt="cranberry">
+	                                </figure>
+	                                <h3 class="level-title">cranberry</h3>
+	                                <p class="level-blurb">is perfect for keeping  healthy bladder and kidneys</p>
+	                        </div><!-- .level -->
+	                        <div class="level">
+	                                <figure class="level-image">
+	                                    <img src="images/products/goji-berry.jpg" alt="goji berry">
+	                                </figure>
+	                                <h3 class="level-title">goji berry</h3>
+	                                <p class="level-blurb">is elixir of youth and commonly used in healthy diets</p>
+	                        </div><!-- .level -->
+	                        <div class="level">
+	                            <figure class="level-image">
+	                                <img src="images/products/lingonberry.jpg" alt="lingonberry">
+	                            </figure>
+	                            <h3 class="level-title">lingonberry</h3>
+	                            <p class="level-blurb">is good for detox and better digestion </p>
+	                        </div><!-- .level -->
+	                    </div><!-- .level-list -->
+	                </section><!-- .levels -->
+	                <section class="levels">
+	                    <div class="level-list">
+	                        <div class="level">
+	                                <figure class="level-image">
+	                                    <img src="images/products2/noni.jpg" alt="noni">
+	                                </figure>
+	                                <h3 class="level-title">noni</h3>
+	                                <p class="level-blurb">is good remedy for stress, headaches and tiredness, its called aspirin of XXI century </p>
+	                        </div><!-- .level -->
+	                        <div class="level">
+	                                <figure class="level-image">
+	                                    <img src="images/products2/chokeberry.jpg" alt="chokeberry">
+	                                </figure>
+	                                <h3 class="level-title">chokeberry</h3>
+	                                <p class="level-blurb">is for healthy heart and better memory</p>
+	                        </div><!-- .level -->
+	                        <div class="level">
+	                            <figure class="level-image">
+	                                <img src="images/products/black-elderberry.jpg" alt="black elderberry">
+	                            </figure>
+	                            <h3 class="level-title">black elderberry</h3>
+	                            <p class="level-blurb">is good for detox and rejuvenates mind and body</p>
+	                        </div><!-- .level -->
+	                    </div><!-- .level-list -->
+	                </section><!-- .levels -->
+	                <section class="levels">
+	                    <div class="level-list">
+	                        <div class="level">
+	                                <figure class="level-image">
+	                                    <img src="images/products2/quince.jpg" alt="quince">
+	                                </figure>
+	                                <h3 class="level-title">quince</h3>
+	                                <p class="level-blurb">is for healthy heart and kidneys</p>
+	                        </div><!-- .level -->
+	                        <div class="level">
+	                                <figure class="level-image">
+	                                    <img src="images/products2/raspberry.jpg" alt="raspberry">
+	                                </figure>
+	                                <h3 class="level-title">raspberry</h3>
+	                                <p class="level-blurb">is commonly used for flu, great fights fiver and cold</p>
+	                        </div><!-- .level -->
+	                        <div class="level">
+	                            <figure class="level-image">
+	                                <img src="images/products2/rowan.jpg" alt="rowan">
+	                            </figure>
+	                            <h3 class="level-title">rowan</h3>
+	                            <p class="level-blurb">is great for liver and kidneys</p>
+	                        </div><!-- .level -->
+	                    </div><!-- .level-list -->
+	                </section><!-- .levels -->
+	                <section class="levels">
+	                    <div class="level-list">
+	                        <div class="level">
+	                                <figure class="level-image">
+	                                    <img src="images/products2/seabuckthorn.jpg" alt="seabuckthorn">
+	                                </figure>
+	                                <h3 class="level-title">seabuckthorn</h3>
+	                                <p class="level-blurb">is for healthy completion and  shining hair</p>
+	                        </div><!-- .level -->
+	                        <div class="level">
+	                                <figure class="level-image">
+	                                    <img src="images/products2/nettle.jpg" alt="nettle">
+	                                </figure>
+	                                <h3 class="level-title">nettle</h3>
+	                                <p class="level-blurb">is good for strong hair and detox</p>
+	                        </div><!-- .level -->
+	                        <div class="level">
+	                            <figure class="level-image">
+	                                <img src="images/products2/sour-cherry.jpg" alt="sour cherry">
+	                            </figure>
+	                            <h3 class="level-title">sour cherry</h3>
+	                            <p class="level-blurb">is good for digestion  and straightens immune system</p>
+	                        </div><!-- .level -->
+	                    </div><!-- .level-list -->
+	                </section><!-- .levels -->
+	                <section class="levels">
+	                    <div class="level-list">
+	                        <div class="level">
+	                                <figure class="level-image">
+	                                    <img src="images/products2/wild-rose.jpg" alt="wild rose">
+	                                </figure>
+	                                <h3 class="level-title">wild rose</h3>
+	                                <p class="level-blurb">is good for liver and boosts immune system</p>
+	                        </div><!-- .level -->
+	                        <div class="level">
+	                            <figure class="level-image">
+	                                <img src="images/products2/pomegranate.jpg" alt="coming soon">
+	                            </figure>
+	                            <h3 class="level-title">pomegranate</h3>
+	                            <p class="level-blurb">coming soon</p>
+	                        </div><!-- .level -->
+	                        <div class="level" style="visibility: hidden;">
+	                            <figure class="level-image">
+	                                <img src="images/empty.png" alt="coming soon">
+	                            </figure>
+	                            <h3 class="level-title"></h3>
+	                            <p class="level-blurb">coming soon</p>
+	                        </div><!-- .level -->
+	                    </div><!-- .level-list -->
+	                </section><!-- .levels -->
+	            </div>
+	        </main><!-- .main-area -->
+	    </div><!-- .content -->
 
-    <footer class="footer-area">
-        <div class="widgets">
-            <aside class="widget">
-                <h3 class="widget-title">What is Good4you?</h3>
-                <p>.........</p>
-            </aside><!-- .widget -->
-            <aside class="widget">
-                <h3 class="widget-title">Our products</h3>
-                <p></p>
-            </aside><!-- .widget -->
-            <aside class="widget">
-                <h3 class="widget-title">Contact info</h3>
-                <p>Office: 0208 728 2652</p>
-                <p>Mobile Eva: 0758 122 3486</p>
-                <p>Email: eva.good4you@gmail.com</p>
-            </aside><!-- .widget -->
-        </div><!-- .widgets -->
-    </footer>
+	    <footer class="footer-area">
+	        <div class="widgets">
+	            <aside class="widget">
+	                <h3 class="widget-title">What is Good4you?</h3>
+	                <p>.........</p>
+	            </aside><!-- .widget -->
+	            <aside class="widget">
+	                <h3 class="widget-title">Our products</h3>
+	                <p></p>
+	            </aside><!-- .widget -->
+	            <aside class="widget">
+	                <h3 class="widget-title">Contact info</h3>
+	                <p>Office: 0208 728 2652</p>
+	                <p>Mobile Eva: 0758 122 3486</p>
+	                <p>Email: eva.good4you@gmail.com</p>
+	            </aside><!-- .widget -->
+	        </div><!-- .widgets -->
+	    </footer>
 
-    <!-- Scripts for accessible mobile-first navigation -->
-    <script type="text/javascript" src="JS/libs/jquery-2.1.3.min.js"></script>
-    <script type="text/javascript" src="JS/navigation.js"></script>
-</body>
-
+	    <!-- Scripts for accessible mobile-first navigation -->
+	    <script type="text/javascript" src="JS/libs/jquery-2.1.3.min.js"></script>
+	    <script type="text/javascript" src="JS/navigation.js"></script>
+	</body>
 </html>
