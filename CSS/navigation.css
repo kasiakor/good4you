@@ -71,9 +71,10 @@ Main Navigation
 .product-list {
 	display: none;
     position: absolute;
+    z-index: 1;
     background-color: #72b02c;
     color:#333;
-    min-width: 139px;
+    min-width: 180px;
     box-shadow: 0px 10px 15px 0px rgba(0,0,0,0.2);
     outline:solid 1px #b3b3b3;
 }
