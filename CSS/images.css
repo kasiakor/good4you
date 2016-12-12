@@ -6,12 +6,23 @@ Images - reset
 	width: 120px;
 }
 
-img {
+.img {
     display: block;
-    width: 100%;
+    
 }
 
 figure {
     margin: 0;
     padding: 0;
+}
+
+.christmas-banner {
+	background-image: url("../images/christmas-banner.png");
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+}
+
+.christmas-banner h1.intro-title {
+	padding: 150px 70px 0;
+	font-size: 1.2em;	
 }
