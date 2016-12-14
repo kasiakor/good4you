@@ -13,6 +13,10 @@ textarea {
 	line-height: 1.5;
 }
 
+body {
+	font-size: 18px!important;
+}
+
 body,
 caption,
 th,
