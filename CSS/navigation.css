@@ -273,9 +273,9 @@ Main Navigation
 	/* Create hover and focus contrast on drop-down items */
 	.main-navigation li li a:hover,
 	.main-navigation li li a:focus {
-		background: #eee;
 		color: #000;
 		text-decoration: none;
+		outline: 0px;
 	}
 
 	/* Position drop-down menus absolutely */
