@@ -4,8 +4,6 @@ Levels
 
 .levels {
     display: flex;
-    margin-right: -2em;
-    margin-left: -2em;
     background: white;
 }
 
