@@ -3,7 +3,7 @@ Products
 --------------------------------------------------------------*/
 
 
-#juices-text > h2 {
+#h2 {
 	font-family: "Open Sans", Arial, sans-serif;
 	margin-top: 0;
 	padding-top: 60px;
@@ -14,9 +14,8 @@ Products
     font-size: 40px;
 }
 
-#juices-text > p {
+p {
 	margin-bottom: 0;
-	color: #888888;
 	padding-left: 20px;
 	padding-right: 20px;
 	clear: both;
@@ -25,7 +24,7 @@ Products
     text-align: center;
 }
 
-#juices-text {
+.text {
 	background: white;
 }
 
