@@ -225,5 +225,6 @@ th {
     #logo {
         display: block;
         margin: auto;
+        padding-top: 10px;
     }
 }
