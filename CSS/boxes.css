@@ -22,8 +22,8 @@ Boxes
 }
 
 .featured-image {
-    -webkit-filter: sepia(50%);
-    filter: sepia(50%);
+    -webkit-filter: sepia(0%);
+    filter: sepia(0%);
     transition: all .5s;
     
 }
