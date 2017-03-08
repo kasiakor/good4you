@@ -16,6 +16,7 @@ Footer
 
 .widget {
     margin-bottom: 4em;
+    font-family: 'Gentium Basic', serif;
 }
 .widget a {
     color: white;
@@ -28,6 +29,12 @@ Footer
     border-bottom-color: hsla(0, 0%, 100%, 1);
 }
 
+
+ul.our-products, p.mission, p.contact {
+    text-align: justify;
+  
+}
+
 @media screen and (min-width: 40em) {
     .widgets {
         display: flex;
@@ -38,9 +45,9 @@ Footer
     .widget {
         box-sizing: border-box;
         width: calc(50% - 1em);
-        padding: 1em 3em;
         margin: 0 .5em 1em;
         border: 1px solid hsla(0, 0%, 100%, .2);
+        padding:10px;
     }
 
 }
