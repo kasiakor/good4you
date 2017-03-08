@@ -212,6 +212,10 @@ Main Navigation
 	display: block;
 }
 
+ul.product-list {
+	font-size: 16px;
+}
+
 /* Horizontal menu on wide screens */
 @media screen and (min-width: 50em) {
 
