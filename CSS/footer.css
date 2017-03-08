@@ -29,7 +29,9 @@ Footer
     border-bottom-color: hsla(0, 0%, 100%, 1);
 }
 
-
+.rules {
+    text-align: left;
+}
 ul.our-products, p.mission, p.contact {
     text-align: justify;
   
