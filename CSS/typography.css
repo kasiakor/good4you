@@ -17,6 +17,10 @@ body {
 	font-size: 18px!important;
 }
 
+body.bg-contact {
+	background: #72b02c;
+}
+
 body,
 caption,
 th,
