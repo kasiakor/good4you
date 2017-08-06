@@ -31,6 +31,12 @@ Intro
     text-align: justify;
 }
 
+@media screen and (max-width: 360px) {
+    .intro {
+        margin: 0 30px;
+    }
+
+}
 @media screen and (min-width: 700px) {
     .intro {
         max-width: 33em;
