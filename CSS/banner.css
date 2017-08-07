@@ -6,9 +6,6 @@ Banner
     padding: 2em 2em 0;
     color: white;
     text-shadow: 1px 1px 1px black;
-    background: url('../images/background.jpg') top left no-repeat;
-    background-size: cover;
-    background-position: center;
 }
 
 .banner-heading {
