@@ -3,8 +3,7 @@ Levels
 --------------------------------------------------------------*/
 
 .levels {
-    background: #e6e6e6;
-    margin-bottom: 50px;
+    background: white;
 }
 
 .level {
@@ -23,6 +22,11 @@ Levels
     border: 10px solid hsl(0, 0%, 80%);
     border-radius: 50%;
     overflow: hidden;
+}
+
+.levels-fp {
+    background: #e6e6e6;
+    margin-bottom: 50px;
 }
 
 .level a:hover > .level-image,
