@@ -22,6 +22,11 @@ Banner
     text-align: justify;
 }
 
+.banner-img {
+    background: url(../images/background.jpg) no-repeat;
+    background-size: cover;
+}
+
 @media screen and (max-width: 360px) {
     .banner-text {
         padding: 0;
