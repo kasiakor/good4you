@@ -24,6 +24,11 @@ Footer
     border-bottom: 2px solid hsla(0, 0%, 100%, .2);
 }
 
+.widget div.mission {
+    text-align: justify;
+    margin: 20px;
+}
+
 .widget a:hover,
 .widget a:focus {
     border-bottom-color: hsla(0, 0%, 100%, 1);
