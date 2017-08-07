@@ -7,6 +7,11 @@ Header styles minus menu
     height: 140px;
 }
 
+.masthead h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
 @media screen and (max-width: 768px) {
     .masthead div.site-branding h1 {
         margin-top: 0;
