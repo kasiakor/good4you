@@ -2,6 +2,10 @@
 Products
 --------------------------------------------------------------*/
 
+.wrapper {
+    max-width: 1240px;
+    margin: 0 auto;
+}
 
 #h2 {
 	font-family: "Open Sans", Arial, sans-serif;
@@ -16,15 +20,16 @@ Products
 
 p {
 	margin:0;
-	padding:0;
+	padding: 20px 0;
 	clear: both;
     display: block;
     width: 100%;
-    text-align: center;
+    text-align: justify;
 }
 
 .text {
 	background: white;
 	padding-top: 30px;
 }
+
 
