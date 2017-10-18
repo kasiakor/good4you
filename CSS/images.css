@@ -11,6 +11,11 @@ Images - reset
     
 }
 
+#facts-img {
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
 figure {
     margin: 0;
     padding: 0;
