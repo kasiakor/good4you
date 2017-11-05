@@ -161,6 +161,9 @@ h4 {
 }
 
 /* Responsive Typography */
+.main-area {
+	margin: 0 40px;
+}
 
 .content {
 	font-size: 1em;
