@@ -77,6 +77,10 @@ Levels
         margin-bottom: 30px;
     }
     
+    .level-blurb {
+        text-align: justify;
+    }
+    
     .bee {
         border: none;
     }
