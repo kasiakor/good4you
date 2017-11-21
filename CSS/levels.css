@@ -34,9 +34,12 @@ Levels
     border-color: hsl(0, 0%, 60%);
 }
 
-.level-title,
-.level-blurb {
+.level-title {
     text-align: center;
+}
+
+.level-blurb {
+    text-align: left;
 }
 
 .level-blurb {
@@ -67,3 +70,15 @@ Levels
         margin: 0 auto;
     }
 }
+
+@media screen and (max-width: 799px) {
+    .level {
+        border-bottom: 1px solid #9d9d9d;
+        margin-bottom: 30px;
+    }
+    
+    .bee {
+        border: none;
+    }
+}
+    
